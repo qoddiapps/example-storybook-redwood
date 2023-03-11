@@ -18,6 +18,10 @@
     "node": ">=14.17 <=18.15",
     "yarn": ">=3.2.0"
   },
+  "scripts": {
+    "build": "rw build",
+    "start": "node index.js"
+},
   "prisma": {
     "seed": "yarn rw exec seed"
   },
